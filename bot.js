@@ -4,7 +4,7 @@ const twitterClient = authenticate();
 twitterClient.stream('statuses/filter', { track: 'diversity hire' }, function (stream) {
     console.log("Finding incels...");
 
-    // when a tweet is found
+    // Found one, send the noise
     stream.on('data', function (tweet) {
         console.log("Shocking, it looks like we found one: ", tweet.text);
 
