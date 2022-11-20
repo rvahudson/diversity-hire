@@ -1,0 +1,16 @@
+{
+  "name": "diversity-hire",
+  "version": "1.0.0",
+  "description": "Twitter bot that auto-replies to Tweets with the keywords \"diversity hire\".",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.0.3",
+    "twitter": "^1.7.1"
+  }
+}
